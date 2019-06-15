@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["p-I18n-vue"],{b876:function(n,t,e){"use strict";e.r(t);var c=function(){var n=this,t=n.$createElement,e=n._self._c||t;return e("div",[e("h2",[n._v("国际化路由页签")]),e("section",[n._v("\n    切换语言：\n    "),n._l(n.$lang.list(),function(t){return e("a",{key:t,staticClass:"demo-btn",class:{primary:t===n.$lang.get()},on:{click:function(e){return n.$lang.set(t)}}},[n._v(n._s(t))])})],2)])},l=[],s=e("0c7c"),a={},i=Object(s["a"])(a,c,l,!1,null,null,null);t["default"]=i.exports}}]);
-//# sourceMappingURL=p-I18n-vue.bb79a8ca.js.map

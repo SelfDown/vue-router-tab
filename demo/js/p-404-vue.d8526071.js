@@ -1,2 +1,0 @@
-(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["p-404-vue"],{"608c":function(e,n,t){"use strict";t.r(n);var c=function(){var e=this,n=e.$createElement;e._self._c;return e._m(0)},a=[function(){var e=this,n=e.$createElement,t=e._self._c||n;return t("div",{staticClass:"app-main"},[t("div",[t("h2",[e._v("页面找不到了！！！")])])])}],s=t("0c7c"),i={},l=Object(s["a"])(i,c,a,!1,null,null,null);n["default"]=l.exports}}]);
-//# sourceMappingURL=p-404-vue.d8526071.js.map
