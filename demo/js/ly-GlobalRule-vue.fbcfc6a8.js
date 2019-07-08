@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["ly-GlobalRule-vue"],{"1cc4":function(e,l,t){"use strict";t.r(l);var n=function(){var e=this,l=e.$createElement,t=e._self._c||l;return t("router-tab",{attrs:{"alive-id":"fullPath"}})},u=[],a=t("0c7c"),c={},r=Object(a["a"])(c,n,u,!1,null,null,null);l["default"]=r.exports}}]);
+//# sourceMappingURL=ly-GlobalRule-vue.fbcfc6a8.js.map

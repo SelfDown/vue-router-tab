@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["ly-Default-vue"],{"5d5a":function(e,t,n){"use strict";n.r(t);var u=function(){var e=this,t=e.$createElement,n=e._self._c||t;return n("router-tab")},l=[],a=n("0c7c"),c={},r=Object(a["a"])(c,u,l,!1,null,null,null);t["default"]=r.exports}}]);
+//# sourceMappingURL=ly-Default-vue.0502205a.js.map
