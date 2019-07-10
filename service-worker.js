@@ -21,11 +21,11 @@ importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox
 self.__precacheManifest = [
   {
     "url": "404.html",
-    "revision": "75f94e17df71d17506962c1c92b96df4"
+    "revision": "0fd5df9c1f321a8bdaafaa61e19ac567"
   },
   {
     "url": "api/index.html",
-    "revision": "ca310fe106370a39ba32f4992b28c33c"
+    "revision": "030c62c19176e29394e607df5f9f6d58"
   },
   {
     "url": "assets/css/0.styles.4ab8cd29.css",
@@ -124,8 +124,8 @@ self.__precacheManifest = [
     "revision": "92bdb010db2a5e514d09f5488c6a9140"
   },
   {
-    "url": "assets/js/app.22c58b8b.js",
-    "revision": "c27237874e0f5e516de80fdfd37e2f26"
+    "url": "assets/js/app.1306a2a0.js",
+    "revision": "d3e99605b37e2ccc4d570d748cbb6719"
   },
   {
     "url": "assets/js/vendors~docsearch.219b40d1.js",
@@ -133,59 +133,59 @@ self.__precacheManifest = [
   },
   {
     "url": "guide/advanced/dynamic-tab-info.html",
-    "revision": "b08ae16d4c97b0491f6514128f5eb392"
+    "revision": "47d42961be63274d4fc0273cf9d1d460"
   },
   {
     "url": "guide/advanced/initial-tabs.html",
-    "revision": "428a0d6fe555be23d0ddceee416fe4f2"
+    "revision": "a5ef423651fbfb1de5f19b5500e9698e"
   },
   {
     "url": "guide/advanced/page-leave.html",
-    "revision": "a0961672b74cb68b478a0445dec119eb"
+    "revision": "fd6e6ff90141d51bd3bf50fd11750dea"
   },
   {
     "url": "guide/advanced/slot.html",
-    "revision": "db317154746ea76e175c598ba14b2eae"
+    "revision": "2e6d407395ef29c9eddae85664903daf"
   },
   {
     "url": "guide/advanced/transition.html",
-    "revision": "d3ea27ea8f0de6b58ba4f3759abeee85"
+    "revision": "4f2f0cb90dc8197790545143a3b87d21"
   },
   {
     "url": "guide/essentials/i18n.html",
-    "revision": "d9ee91aa1ae3259d1ca4767670368934"
+    "revision": "009661952bfff6cd87f52e138954f140"
   },
   {
     "url": "guide/essentials/iframe.html",
-    "revision": "eb5f44a85ef5d96d6476145541241dec"
+    "revision": "2dfcfa6e2e620fb8a37c1d0f2008458e"
   },
   {
     "url": "guide/essentials/index.html",
-    "revision": "e40f2d333532c3646d3d849e9fd621aa"
+    "revision": "a647a39ef6aea75436f1b4f480823344"
   },
   {
     "url": "guide/essentials/operate.html",
-    "revision": "90f72ab7b7e5a7e08788376de9b4dbd9"
+    "revision": "1ec0bce6455a14ca59a328d0dc42d81e"
   },
   {
     "url": "guide/essentials/rule.html",
-    "revision": "660347ba669d2caa68c6124271629af8"
+    "revision": "4063a10f9041bd93fdab7c0ede2f51e0"
   },
   {
     "url": "guide/index.html",
-    "revision": "58ef94707081664c7418093768c8a601"
+    "revision": "36e749f572364611f3718dcc3bf1c18f"
   },
   {
     "url": "guide/installation.html",
-    "revision": "cfcc6a7e668ba2b7867121e750ac0e34"
+    "revision": "d2d90ae357c1dcc91317c4fd43d7ef1a"
   },
   {
     "url": "guide/program.html",
-    "revision": "a3ea9e71a8ee58abe4d6d8d3d4372891"
+    "revision": "e9ab8e3f6295ee5231c80a88b0ccd4e2"
   },
   {
     "url": "index.html",
-    "revision": "f6da72077fd67c18168b0efbbebfe4a5"
+    "revision": "3e50d8b071d3db5b53e1af0957d05bf4"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
