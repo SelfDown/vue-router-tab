@@ -90,7 +90,9 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "gitHooks": {},
+  "gitHooks": {
+
+  },
   "lint-staged": {
     "*.js": [
       "vue-cli-service lint",
