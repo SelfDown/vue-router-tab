@@ -78,7 +78,7 @@
   },
   "eslintIgnore": [
     "dist",
-    "src"
+    "*"
   ],
   "postcss": {
     "plugins": {
