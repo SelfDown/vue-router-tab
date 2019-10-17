@@ -1,6 +1,6 @@
 {
   "name": "omnis-vue-router-tab",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Vue.js tab components, based on Vue Router",
   "keywords": [
     "vue",
@@ -90,9 +90,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "gitHooks": {
-
-  },
+  "gitHooks": {},
   "lint-staged": {
     "*.js": [
       "vue-cli-service lint",
