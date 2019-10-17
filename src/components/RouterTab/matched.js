@@ -7,12 +7,19 @@ export default {
     matchRoutes (route = this.$route) {
       const { matched } = route
 
-      // 页面所在路由 index
-      let pageRouteIdx = matched.findIndex(({ instances }) =>
-        !instances.default || // instances 为空
-        Object.values(instances).find(vm => vm && vm._isRouterPage) // mounted 时 instances 会包含路由页面实例
-      )
-
+      // // 页面所在路由 index
+      // let pageRouteIdx = matched.findIndex(({ instances }) =>
+      //   !instances.default || // instances 为空
+      //   Object.values(instances).find(vm => vm && vm._isRouterPage) // mounted 时 instances 会包含路由页面实例
+      // )
+      let pageRouteIdx = -1
+      for (let i = 0; i < matched.length; i++) {
+        let instances = matched[i].instances
+        if ((instances.default && instances.default._isRouterPage) || !instances.default){
+          pageRouteIdx = i
+          break
+        }
+      }
       warn(pageRouteIdx > -1, '未能匹配到路由信息')
 
       return {

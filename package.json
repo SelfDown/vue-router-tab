@@ -56,6 +56,7 @@
   "eslintConfig": {
     "root": true,
     "env": {
+      "browser": true,
       "node": true
     },
     "extends": [
@@ -64,9 +65,12 @@
     ],
     "rules": {
       "vue/require-default-prop": false,
-      "vue/max-attributes-per-line": ["error", {
-        "singleline": 3
-      }]
+      "vue/max-attributes-per-line": [
+        "error",
+        {
+          "singleline": 3
+        }
+      ]
     },
     "parserOptions": {
       "parser": "babel-eslint"
@@ -86,8 +90,7 @@
     "not ie <= 8"
   ],
   "gitHooks": {
-    "pre-commit": "lint-staged",
-    "commit-msg": "node scripts/verify-commit-msg.js"
+  
   },
   "lint-staged": {
     "*.js": [

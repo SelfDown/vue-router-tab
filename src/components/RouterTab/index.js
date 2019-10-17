@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 // 方法
-import { emptyObj } from '../../util'
+import { emptyObj, findIndex } from '../../util'
 import { warn } from '../../util/warn'
 
 // 功能模块混入
@@ -83,6 +83,7 @@ export default {
   },
 
   created () {
+    this.fix_chrome_39()
     // 添加到原型链
     Vue.prototype.$routerTab = this
 
@@ -102,6 +103,65 @@ export default {
   },
 
   methods: {
+    fix_chrome_39 () {
+
+        if (!String.prototype.startsWith) {
+          Object.defineProperty(String.prototype, 'startsWith', {
+            value: function (search, pos) {
+              pos = !pos || pos < 0 ? 0 : +pos;
+              return this.substring(pos, pos + search.length) === search;
+            }
+          });
+        }
+
+      if (!Array.prototype.includes) {
+        Object.defineProperty(Array.prototype, 'includes', {
+          value: function (searchElement, fromIndex) {
+
+            // 1. Let O be ? ToObject(this value).
+            if (this == null) {//this是空或者未定义，抛出错误
+              throw new TypeError('"this" is null or not defined');
+            }
+
+            var o = Object(this);//将this转变成对象
+
+            // 2. Let len be ? ToLength(? Get(O, "length")).
+            var len = o.length >>> 0;//无符号右移0位，获取对象length属性，如果未定义就会变成0
+
+            // 3. If len is 0, return false.
+            if (len === 0) {//length为0直接返回false未找到目标值
+              return false;
+            }
+
+            // 4. Let n be ? ToInteger(fromIndex).
+            //    (If fromIndex is undefined, this step produces the value 0.)
+            var n = fromIndex | 0;//查找起始索引
+
+            // 5. If n ≥ 0, then
+            //  a. Let k be n.
+            // 6. Else n < 0,
+            //  a. Let k be len + n.
+            //  b. If k < 0, let k be 0.
+            var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0);//计算正确起始索引，因为有可能是负值
+
+            // 7. Repeat, while k < len
+            while (k < len) {//从起始索引处开始循环
+              // a. Let elementK be the result of ? Get(O, ! ToString(k)).
+              // b. If SameValueZero(searchElement, elementK) is true, return true.
+              // c. Increase k by 1.
+              // NOTE: === provides the correct "SameValueZero" comparison needed here.
+              if (o[k] === searchElement) {//如果某一位置与寻找目标相等，返回true，找到了
+                return true;
+              }
+              k++;
+            }
+
+            // 8. Return false
+            return false;//未找到，返回false
+          }
+        });
+      }
+    },
     // 初始页签数据
     initTabs () {
       let { tabs, $router } = this
@@ -138,8 +198,7 @@ export default {
     // 更新 tab 数据
     updateTab (key, { route, tab }) {
       let { items } = this
-      let matchIdx = items.findIndex(({ id }) => id === key)
-
+      let matchIdx = findIndex('id', key, items)
       let item = Object.assign(this.getRouteTab(route), tab)
 
       if (matchIdx > -1) {
@@ -181,7 +240,7 @@ export default {
     // 移除 tab 项
     async removeTab (id, force = false) {
       let { items } = this
-      const idx = items.findIndex(item => item.id === id)
+      const idx = findIndex('id', id, items)
 
       // 最后一个页签不允许关闭
       if (!force && this.keepLastTab && items.length === 1) {
@@ -220,7 +279,7 @@ export default {
     // 通过页签 id 关闭页签
     async closeTab (id = this.activedTab, to, force = false) {
       let { activedTab, items, $router } = this
-      const idx = items.findIndex(item => item.id === id)
+      const idx = findIndex('id', id, items)
 
       try {
         await this.removeTab(id, force)

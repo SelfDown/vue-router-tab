@@ -19,3 +19,15 @@ export function debounce (fn, delay = 200) {
     }, delay)
   }
 }
+
+export function findIndex (key, value, items) {
+  let matchIdx = -1
+  for (let i = 0; i < items.length; i++) {
+    let id = items[i][key]
+    if (id === value) {
+      matchIdx = i
+      break
+    }
+  }
+  return matchIdx
+}
