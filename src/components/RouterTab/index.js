@@ -17,6 +17,10 @@ export default {
   name: 'RouterTab',
   mixins: [ contextmenu, i18n, iframe, pageLeave, rule, scroll ],
   props: {
+    containHiddenTab:{
+      type:String,
+      default:"monitor_big_dish"
+    },
     // 初始页签数据
     tabs: {
       type: Array,
@@ -70,6 +74,9 @@ export default {
     // routerAlive
     $alive () {
       return this.isMounted ? this.$refs.routerAlive : null
+    },
+    showTab(){
+      return (this.$route.path.indexOf(this.containHiddenTab)>=0)
     }
   },
 
@@ -93,6 +100,7 @@ export default {
 
   mounted () {
     this.isMounted = true
+   
   },
 
   destroyed () {

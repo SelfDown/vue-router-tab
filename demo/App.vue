@@ -23,7 +23,8 @@ export default {
   components: { AppHeader, AppAside },
   data () {
     return {
-      sidebarOpen: false
+      sidebarOpen: false,
+      contain_hidden_tab:"test"
     }
   },
 

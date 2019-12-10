@@ -1,8 +1,9 @@
 <template>
   <div class="router-tab">
+
     <!-- 页签头部 -->
-    <header class="router-tab-header">
-      <div class="router-tab-scroll">
+    <header class="router-tab-header" :class="{hidden_tab: showTab}">
+      <div class="router-tab-scroll"  >
         <!-- 页签列表 -->
         <transition-group
           tag="ul"
@@ -12,6 +13,7 @@
           @after-leave="onTabTransitionEnd"
         >
           <router-link
+           
             v-for="({ id, to, title, icon, tips, closable }, index) in items"
             :key="id || to"
             class="router-tab-item"
