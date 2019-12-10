@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vue-router-tab"] = factory(require("vue"));
+		exports["omnis-vue-router-tab"] = factory(require("vue"));
 	else
-		root["vue-router-tab"] = factory(root["Vue"]);
+		root["omnis-vue-router-tab"] = factory(root["Vue"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -96,7 +96,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /************************************************************************/
 /******/ ({
 
-/***/ "02eb":
+/***/ "3201":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
@@ -107,10 +107,10 @@ return /******/ (function(modules) { // webpackBootstrap
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("02eb");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a41a");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_transition_scss_vue_type_style_index_1_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -862,21 +862,21 @@ module.exports = __webpack_require__("96cf");
 
 /***/ }),
 
+/***/ "a41a":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "e42d":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f42e");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("3201");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_lib_loader_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "f42e":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_8_oneOf_1_0_node_modules_css_loader_index_js_ref_8_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_8_oneOf_1_2_node_modules_sass_loader_dist_cjs_js_ref_8_oneOf_1_3_routerTab_scss_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -946,8 +946,8 @@ if (typeof window !== 'undefined') {
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"12aa0eb4-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RouterTab/RouterTab.vue?vue&type=template&id=793e3b3c&
-var RouterTabvue_type_template_id_793e3b3c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"router-tab"},[_c('header',{staticClass:"router-tab-header"},[_c('div',{staticClass:"router-tab-scroll"},[_c('transition-group',_vm._b({staticClass:"router-tab-nav",attrs:{"tag":"ul"},on:{"after-enter":_vm.onTabTransitionEnd,"after-leave":_vm.onTabTransitionEnd}},'transition-group',typeof _vm.tabTransition === 'string' ? { name: _vm.tabTransition } : _vm.tabTransition,false),_vm._l((_vm.items),function(ref,index){
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2103df77-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/RouterTab/RouterTab.vue?vue&type=template&id=4a3bb184&
+var RouterTabvue_type_template_id_4a3bb184_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"router-tab"},[_c('header',{staticClass:"router-tab-header",class:{hidden_tab: _vm.showTab}},[_c('div',{staticClass:"router-tab-scroll"},[_c('transition-group',_vm._b({staticClass:"router-tab-nav",attrs:{"tag":"ul"},on:{"after-enter":_vm.onTabTransitionEnd,"after-leave":_vm.onTabTransitionEnd}},'transition-group',typeof _vm.tabTransition === 'string' ? { name: _vm.tabTransition } : _vm.tabTransition,false),_vm._l((_vm.items),function(ref,index){
 var id = ref.id;
 var to = ref.to;
 var title = ref.title;
@@ -958,7 +958,7 @@ return _c('router-link',{key:id || to,staticClass:"router-tab-item",class:{ acti
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/RouterTab/RouterTab.vue?vue&type=template&id=793e3b3c&
+// CONCATENATED MODULE: ./src/components/RouterTab/RouterTab.vue?vue&type=template&id=4a3bb184&
 
 // EXTERNAL MODULE: ./node_modules/@babel/runtime/regenerator/index.js
 var regenerator = __webpack_require__("a34a");
@@ -988,6 +988,20 @@ function debounce(fn) {
       fn.call(context, args);
     }, delay);
   };
+}
+function findIndex(key, value, items) {
+  var matchIdx = -1;
+
+  for (var i = 0; i < items.length; i++) {
+    var id = items[i][key];
+
+    if (id === value) {
+      matchIdx = i;
+      break;
+    }
+  }
+
+  return matchIdx;
 }
 // CONCATENATED MODULE: ./src/util/warn.js
 var prefix = '[Vue Router Tab]'; // 错误
@@ -1497,16 +1511,23 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
     // 匹配路由
     matchRoutes: function matchRoutes() {
       var route = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.$route;
-      var matched = route.matched; // 页面所在路由 index
+      var matched = route.matched; // // 页面所在路由 index
+      // let pageRouteIdx = matched.findIndex(({ instances }) =>
+      //   !instances.default || // instances 为空
+      //   Object.values(instances).find(vm => vm && vm._isRouterPage) // mounted 时 instances 会包含路由页面实例
+      // )
 
-      var pageRouteIdx = matched.findIndex(function (_ref) {
-        var instances = _ref.instances;
-        return !instances.default || // instances 为空
-        Object.values(instances).find(function (vm) {
-          return vm && vm._isRouterPage;
-        });
-      } // mounted 时 instances 会包含路由页面实例
-      );
+      var pageRouteIdx = -1;
+
+      for (var i = 0; i < matched.length; i++) {
+        var instances = matched[i].instances;
+
+        if (instances.default && instances.default._isRouterPage || !instances.default) {
+          pageRouteIdx = i;
+          break;
+        }
+      }
+
       warn(pageRouteIdx > -1, '未能匹配到路由信息');
       return {
         baseRoute: matched[pageRouteIdx - 1],
@@ -1746,7 +1767,7 @@ function scroll_asyncToGenerator(fn) { return function () { var self = this, arg
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/@vue/cli-plugin-eslint/node_modules/eslint-loader??ref--13-0!./src/components/RouterTab?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/eslint-loader??ref--13-0!./src/components/RouterTab?vue&type=script&lang=js&
 
 
 function RouterTab_vue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
@@ -1769,6 +1790,10 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
   name: 'RouterTab',
   mixins: [RouterTab_contextmenu, i18n, iframe, pageLeave, rule, RouterTab_scroll],
   props: {
+    containHiddenTab: {
+      type: String,
+      default: "monitor_big_dish"
+    },
     // 初始页签数据
     tabs: {
       type: Array,
@@ -1822,6 +1847,9 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
     // routerAlive
     $alive: function $alive() {
       return this.isMounted ? this.$refs.routerAlive : null;
+    },
+    showTab: function showTab() {
+      return this.$route.path.indexOf(this.containHiddenTab) >= 0;
     }
   },
   watch: {
@@ -1833,7 +1861,8 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
     }
   },
   created: function created() {
-    // 添加到原型链
+    this.fix_chrome_39(); // 添加到原型链
+
     external_commonjs_vue_commonjs2_vue_root_Vue_default.a.prototype.$routerTab = this;
     this.initTabs();
     this.updateActivedTab();
@@ -1848,6 +1877,68 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
     }
   },
   methods: {
+    fix_chrome_39: function fix_chrome_39() {
+      if (!String.prototype.startsWith) {
+        Object.defineProperty(String.prototype, 'startsWith', {
+          value: function value(search, pos) {
+            pos = !pos || pos < 0 ? 0 : +pos;
+            return this.substring(pos, pos + search.length) === search;
+          }
+        });
+      }
+
+      if (!Array.prototype.includes) {
+        Object.defineProperty(Array.prototype, 'includes', {
+          value: function value(searchElement, fromIndex) {
+            // 1. Let O be ? ToObject(this value).
+            if (this == null) {
+              //this是空或者未定义，抛出错误
+              throw new TypeError('"this" is null or not defined');
+            }
+
+            var o = Object(this); //将this转变成对象
+            // 2. Let len be ? ToLength(? Get(O, "length")).
+
+            var len = o.length >>> 0; //无符号右移0位，获取对象length属性，如果未定义就会变成0
+            // 3. If len is 0, return false.
+
+            if (len === 0) {
+              //length为0直接返回false未找到目标值
+              return false;
+            } // 4. Let n be ? ToInteger(fromIndex).
+            //    (If fromIndex is undefined, this step produces the value 0.)
+
+
+            var n = fromIndex | 0; //查找起始索引
+            // 5. If n ≥ 0, then
+            //  a. Let k be n.
+            // 6. Else n < 0,
+            //  a. Let k be len + n.
+            //  b. If k < 0, let k be 0.
+
+            var k = Math.max(n >= 0 ? n : len - Math.abs(n), 0); //计算正确起始索引，因为有可能是负值
+            // 7. Repeat, while k < len
+
+            while (k < len) {
+              //从起始索引处开始循环
+              // a. Let elementK be the result of ? Get(O, ! ToString(k)).
+              // b. If SameValueZero(searchElement, elementK) is true, return true.
+              // c. Increase k by 1.
+              // NOTE: === provides the correct "SameValueZero" comparison needed here.
+              if (o[k] === searchElement) {
+                //如果某一位置与寻找目标相等，返回true，找到了
+                return true;
+              }
+
+              k++;
+            } // 8. Return false
+
+
+            return false; //未找到，返回false
+          }
+        });
+      }
+    },
     // 初始页签数据
     initTabs: function initTabs() {
       var _this = this;
@@ -1892,10 +1983,7 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
       var route = _ref2.route,
           tab = _ref2.tab;
       var items = this.items;
-      var matchIdx = items.findIndex(function (_ref3) {
-        var id = _ref3.id;
-        return id === key;
-      });
+      var matchIdx = findIndex('id', key, items);
       var item = Object.assign(this.getRouteTab(route), tab);
 
       if (matchIdx > -1) {
@@ -1914,8 +2002,8 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
 
       if (fullMatch) {
         var matchPath = this.getPathWithoutHash(route);
-        var matchTab = this.items.find(function (_ref4) {
-          var to = _ref4.to;
+        var matchTab = this.items.find(function (_ref3) {
+          var to = _ref3.to;
           return to.split('#')[0] === matchPath;
         });
 
@@ -1957,9 +2045,7 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
               case 0:
                 force = _args.length > 1 && _args[1] !== undefined ? _args[1] : false;
                 items = this.items;
-                idx = items.findIndex(function (item) {
-                  return item.id === id;
-                }); // 最后一个页签不允许关闭
+                idx = findIndex('id', id, items); // 最后一个页签不允许关闭
 
                 if (!(!force && this.keepLastTab && items.length === 1)) {
                   _context.next = 5;
@@ -2044,9 +2130,7 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
                 to = _args2.length > 1 ? _args2[1] : undefined;
                 force = _args2.length > 2 && _args2[2] !== undefined ? _args2[2] : false;
                 activedTab = this.activedTab, items = this.items, $router = this.$router;
-                idx = items.findIndex(function (item) {
-                  return item.id === id;
-                });
+                idx = findIndex('id', id, items);
                 _context2.prev = 5;
                 _context2.next = 8;
                 return this.removeTab(id, force);
@@ -2246,8 +2330,8 @@ function RouterTab_vue_type_script_lang_js_asyncToGenerator(fn) { return functio
 
       var to = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : this.defaultPath;
       // 遍历删除缓存
-      this.items.forEach(function (_ref5) {
-        var id = _ref5.id;
+      this.items.forEach(function (_ref4) {
+        var id = _ref4.id;
         return _this2.$alive.remove(id);
       }); // 初始页签数据
 
@@ -2431,7 +2515,7 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_RouterTab_vue_type_script_lang_js_,
-  RouterTabvue_type_template_id_793e3b3c_render,
+  RouterTabvue_type_template_id_4a3bb184_render,
   staticRenderFns,
   false,
   null,
@@ -2631,12 +2715,12 @@ var component = normalizeComponent(
     }
   }
 });
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"12aa0eb4-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/page/Iframe.vue?vue&type=template&id=5e368814&
-var Iframevue_type_template_id_5e368814_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"router-tab-iframe-fake"})}
-var Iframevue_type_template_id_5e368814_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2103df77-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/page/Iframe.vue?vue&type=template&id=4c8d8c99&
+var Iframevue_type_template_id_4c8d8c99_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"router-tab-iframe-fake"})}
+var Iframevue_type_template_id_4c8d8c99_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/page/Iframe.vue?vue&type=template&id=5e368814&
+// CONCATENATED MODULE: ./src/page/Iframe.vue?vue&type=template&id=4c8d8c99&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/page/Iframe.vue?vue&type=script&lang=js&
 
@@ -2732,8 +2816,8 @@ function Iframevue_type_script_lang_js_asyncToGenerator(fn) { return function ()
 
 var Iframe_component = normalizeComponent(
   page_Iframevue_type_script_lang_js_,
-  Iframevue_type_template_id_5e368814_render,
-  Iframevue_type_template_id_5e368814_staticRenderFns,
+  Iframevue_type_template_id_4c8d8c99_render,
+  Iframevue_type_template_id_4c8d8c99_staticRenderFns,
   false,
   null,
   null,
@@ -2790,4 +2874,4 @@ var RouterTabRoutes = routes;
 
 /******/ });
 });
-//# sourceMappingURL=vue-router-tab.umd.js.map
+//# sourceMappingURL=omnis-vue-router-tab.umd.js.map
