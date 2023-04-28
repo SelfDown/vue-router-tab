@@ -1,6 +1,6 @@
 {
-  "name": "omnis-vue-router-tab",
-  "version": "0.2.10",
+  "name": "collect-vue-router-tab",
+  "version": "0.2.11",
   "description": "Vue.js tab components, based on Vue Router",
   "keywords": [
     "vue",
@@ -17,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/bhuh12/vue-router-tab/issues"
   },
-  "main": "dist/lib/omnis-vue-router-tab.umd.min.js",
+  "main": "dist/lib/collect-vue-router-tab.umd.min.js",
   "scripts": {
     "demo:dev": "vue-cli-service serve --open demo/main.js",
     "demo:build": "vue-cli-service build demo/main.js",
@@ -90,9 +90,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "gitHooks": {
-
-  },
+  "gitHooks": {},
   "lint-staged": {
     "*.js": [
       "vue-cli-service lint",
